@@ -1,22 +1,32 @@
-// 特殊字符 Ä ä Ö ö Ü ü ß
+// 特殊字符 Ä ä Ö ö Ü ü ẞ ß
 const vocabList = [
     // 名詞
     //{ type: 'noun', deutsch: '', chinese: '', gender: '', plural: '', Pl: '', countable: false/true, lesson: '', hint: '' },
-    { type: 'noun', deutsch: 'Kursraum', chinese: '', gender: 'der', plural: 'Kursräume', Pl: '-:e', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Tisch', chinese: '', gender: 'der', plural: 'Tische', Pl: '-e', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Stuhl', chinese: '', gender: 'der', plural: 'Stühle', Pl: '-:e', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Kuli', chinese: '', gender: 'der', plural: 'Kulis', Pl: '-s', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Stift', chinese: '', gender: 'der', plural: 'Stifte', Pl: '-e', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Bleistift', chinese: '', gender: 'der', plural: 'Bleistifte', Pl: '-e', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Gegenstand', chinese: '', gender: 'der', plural: 'Gegenstände', Pl: '-:e', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Text', chinese: '', gender: 'der', plural: 'Texte', Pl: '-e', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Marker', chinese: '', gender: 'der', plural: 'Marker', Pl: '-', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Textmarker', chinese: '', gender: 'der', plural: 'Textmarker', Pl: '-', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Laptop', chinese: '', gender: 'der', plural: 'Laptops', Pl: '-s', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Kaffee', chinese: '', gender: 'der', plural: 'Laptops', Pl: '-s', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Laptop', chinese: '', gender: 'der', plural: 'Laptops', Pl: '-s', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Laptop', chinese: '', gender: 'der', plural: 'Laptops', Pl: '-s', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Laptop', chinese: '', gender: 'der', plural: 'Laptops', Pl: '-s', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Kursraum', chinese: '教室', gender: 'der', plural: 'Kursräume', Pl: '-:e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Tisch', chinese: '桌', gender: 'der', plural: 'Tische', Pl: '-e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Stuhl', chinese: '椅', gender: 'der', plural: 'Stühle', Pl: '-:e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Kuli', chinese: '原子筆', gender: 'der', plural: 'Kulis', Pl: '-s', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Stift', chinese: '筆', gender: 'der', plural: 'Stifte', Pl: '-e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Bleistift', chinese: '鉛筆', gender: 'der', plural: 'Bleistifte', Pl: '-e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Gegenstand', chinese: '東西 物件', gender: 'der', plural: 'Gegenstände', Pl: '-:e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Text', chinese: '文章', gender: 'der', plural: 'Texte', Pl: '-e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Marker', chinese: '馬克筆', gender: 'der', plural: 'Marker', Pl: '-', countable: true, lesson: 'lesson 0', hint: 'M' },
+    { type: 'noun', deutsch: 'Textmarker', chinese: '馬克筆', gender: 'der', plural: 'Textmarker', Pl: '-', countable: true, lesson: 'lesson 0', hint: 'T' },
+    { type: 'noun', deutsch: 'Laptop', chinese: '筆電', gender: 'der', plural: 'Laptops', Pl: '-s', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Kaffee', chinese: '咖啡', gender: 'der', plural: 'Kaffees', Pl: '-s', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Tee', chinese: '茶', gender: 'der', plural: 'Tees', Pl: '-s', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Radiergummi', chinese: '橡皮擦', gender: 'der', plural: 'Radiergummis', Pl: '-s', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Buch', chinese: '書', gender: 'das', plural: 'Bücher', Pl: '-:er', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Wort', chinese: '字', gender: 'das', plural: 'Wörter', Pl: '-:er', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Handy', chinese: '手機', gender: 'das', plural: 'Handys', Pl: '-s', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Heft', chinese: '筆記本', gender: 'das', plural: 'Hefte', Pl: '-e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Plakat', chinese: '佈告欄 看板', gender: 'das', plural: 'Plakate', Pl: '-e', countable: true, lesson: 'lesson 0' },
+    { type: 'noun', deutsch: 'Brötchen', chinese: '小麵包', gender: 'das', plural: 'Brötchen', Pl: '-', countable: true, lesson: 'lesson 0'},
+    { type: 'noun', deutsch: 'Tafel', chinese: '黑板', gender: 'die', plural: 'Tafeln', Pl: '-n', countable: true, lesson: 'lesson 0'},
+    { type: 'noun', deutsch: 'Tür', chinese: '門', gender: 'die', plural: 'Türen', Pl: '-en', countable: true, lesson: 'lesson 0'},
+    { type: 'noun', deutsch: 'Uhr', chinese: '鐘錶', gender: 'die', plural: 'Uhren', Pl: '-en', countable: true, lesson: 'lesson 0'},
+    { type: 'noun', deutsch: 'Tasche', chinese: '提袋 包包', gender: 'die', plural: 'Taschen', Pl: '-n', countable: true, lesson: 'lesson 0'},
+    { type: 'noun', deutsch: 'Pause', chinese: '休息', gender: 'die', plural: 'Pausen', Pl: '-n', countable: true, lesson: 'lesson 0'},
     
     { type: 'noun', deutsch: 'Name', chinese: '姓名', gender: 'der', plural: 'Namen', Pl: '-n', countable: true, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'Vorname', chinese: '名(字)', gender: 'der', plural: 'Vornamen', Pl: '-n', countable: true, lesson: 'lesson 1' },
@@ -45,6 +55,14 @@ const vocabList = [
 
     // 動詞
     //{ type: 'verb', infinitiv: '', ich: '', du: '', er: '', wir: '', ihr: '', sie: '', chinese: '', lesson: '', hint: '' },
+    { type: 'verb', infinitiv: 'hören', ich: 'höre', du: 'hörst', er: 'hört', wir: 'hören', ihr: 'hört', sie: 'hören', chinese: '聽', lesson: 'lesson 0' },
+    { type: 'verb', infinitiv: 'lesen', ich: 'lese', du: 'liest', er: 'liest', wir: 'lesen', ihr: 'lest', sie: 'lesen', chinese: '讀', lesson: 'lesson 0' },
+    { type: 'verb', infinitiv: 'schreiben', ich: 'schreibe', du: 'schreibst', er: 'schreibt', wir: 'schreiben', ihr: 'schreibt', sie: 'schreiben', chinese: '寫', lesson: 'lesson 0' },
+    { type: 'verb', infinitiv: 'können', ich: 'kann', du: 'kannst', er: 'kann', wir: 'können', ihr: 'könnt', sie: 'können', chinese: '可以 能夠', lesson: 'lesson 0' },
+    { type: 'verb', infinitiv: 'buchstabieren', ich: 'buchstabiere', du: 'buchstabierst', er: 'buchstabiert', wir: 'buchstabieren', ihr: 'buchstabiert', sie: 'buchstabieren', chinese: '拚字(母)', lesson: 'lesson 0' },
+    { type: 'verb', infinitiv: 'wiederholen', ich: 'wiederhole', du: 'wiederholst', er: 'wiederholt', wir: 'wiederholen', ihr: 'wiederholt', sie: 'wiederholen', chinese: '重複', lesson: 'lesson 0' },
+    { type: 'verb', infinitiv: 'verstehen', ich: 'verstehe', du: 'verstehst', er: 'versteht', wir: 'verstehen', ihr: 'versteht', sie: 'verstehen', chinese: '明瞭 懂', lesson: 'lesson 0' },
+
     { type: 'verb', infinitiv: 'sein', ich: 'bin', du: 'bist', er: 'ist', wir: 'sind', ihr: 'seid', sie: 'sind', chinese: '是', lesson: 'lesson 1' },
     { type: 'verb', infinitiv: 'leben', ich: 'lebe', du: 'lebst', er: 'lebt', wir: 'leben', ihr: 'lebt', sie: 'leben', chinese: '住', lesson: 'lesson 1', hint: 'l' },
     { type: 'verb', infinitiv: 'wohnen', ich: 'wohne', du: 'wohnst', er: 'wohnt', wir: 'wohnen', ihr: 'wohnt', sie: 'wohnen', chinese: '住', lesson: 'lesson 1', hint: 'w' },
@@ -54,10 +72,12 @@ const vocabList = [
     { type: 'verb', infinitiv: 'kommen', ich: 'komme', du: 'kommst', er: 'kommt', wir: 'kommen', ihr: 'kommt', sie: 'kommen', chinese: '來(自)', lesson: 'lesson 1' },
     { type: 'verb', infinitiv: 'sprechen', ich: 'spreche', du: 'sprichst', er: 'spricht', wir: 'sprechen', ihr: 'sprecht', sie: 'sprechen', chinese: '說(語言)(能力)', lesson: 'lesson 1' },
 
-    { type: 'verb', infinitiv: 'bekommen', ich: 'bekomme', du: 'bekommst', er: 'bekommt', wir: 'bekommen', ihr: 'bekommt', sie: 'bekommen', chinese: '得到', lesson: '' },
+    { type: 'verb', infinitiv: 'bekommen', ich: 'bekomme', du: 'bekommst', er: 'bekommt', wir: 'bekommen', ihr: 'bekommt', sie: 'bekommen', chinese: '得到', lesson: 'lesson 2' },
 
     // 形容詞
     //{ type: 'adjective', deutsch: '', chinese: '', lesson: '' },
+    { type: 'adjective', deutsch: 'klar', chinese: '清楚的', lesson: 'lesson 0' },
+
     { type: 'adjective', deutsch: 'gut', chinese: '好的', lesson: 'lesson 1' },
     { type: 'adjective', deutsch: 'schlecht', chinese: '糟的', lesson: 'lesson 1' },
     { type: 'adjective', deutsch: 'böse', chinese: '惡的', lesson: 'lesson 1' },
@@ -72,6 +92,9 @@ const vocabList = [
 
     // 副詞
     //{ type: 'adverb', deutsch: '', chinese: '', lesson: '' },
+    { type: 'adverb', deutsch: 'gerne', chinese: '樂意地 喜歡地', lesson: 'lesson 0', hint: '-e'  },
+    { type: 'adverb', deutsch: 'gern', chinese: '樂意地 喜歡地', lesson: 'lesson 0'},
+
     { type: 'adverb', deutsch: 'hier', chinese: '這裡', lesson: 'lesson 1' },
     { type: 'adverb', deutsch: 'dort', chinese: '那裡', lesson: 'lesson 1' },
     { type: 'adverb', deutsch: 'super', chinese: '讚 棒地', lesson: 'lesson 1' },
@@ -94,7 +117,7 @@ const vocabList = [
     { type: 'other', deutsch: 'du', chinese: '你', lesson: 'lesson 1' },
     { type: 'other', deutsch: 'er', chinese: '他', lesson: 'lesson 1' },
     { type: 'other', deutsch: 'es', chinese: '它', lesson: 'lesson 1' },
-    { type: 'other', deutsch: 'sie', chinese: '她/他們/您們', lesson: 'lesson 1' },
+    { type: 'other', deutsch: 'sie', chinese: '她/他們/您(們)', lesson: 'lesson 1' },
     { type: 'other', deutsch: 'wir', chinese: '我們', lesson: 'lesson 1' },
     { type: 'other', deutsch: 'ihr', chinese: '你們', lesson: 'lesson 1' },
     { type: 'other', deutsch: 'in', chinese: '在...內', lesson: 'lesson 1' },
