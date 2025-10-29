@@ -1,0 +1,40 @@
+body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+#card { width: 400px; margin: 20px auto; padding: 20px; border: 2px solid #007bff; border-radius: 10px; background: #f8f9fa; text-align: left; }
+#translation { font-size: 24px; margin-bottom: 10px; }
+#inputs { margin: 10px 0; text-align: center; }
+#inputs input, #inputs select { margin: 5px; padding: 8px; width: 80%; }
+
+/* 按鈕樣式與間距 */
+#next {
+    margin: 2px;
+}
+
+/* 顯示答案清單樣式 */
+#feedback ul {
+	text-align: left;
+	display: inline-block;
+	margin: 8px 0 0 0;
+	padding: 8px 12px;
+	padding-left: 18px;
+	background: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+#feedback ul li:first-child { font-weight: 700; margin-bottom: 6px; }
+#feedback.correct { color: #155724; background: #d4edda; }
+#feedback.incorrect { color: #721c24; background: #f8d7da; }
+
+/* lesson 核取方塊橫向排列 */
+#lessonContainer {
+    text-align: left;
+    margin: 10px 0;
+}
+#lessonContainer label {
+    display: inline-block;
+    margin-right: 15px;
+    white-space: nowrap;
+}
+#lessonContainer input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}

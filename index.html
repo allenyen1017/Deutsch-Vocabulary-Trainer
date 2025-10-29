@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutsch Vocab Trainer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Deutsch Vocabulary Trainer</h1>
+    <div id="quiz">
+        <div id="card">
+            <div style="margin-top:8px;">
+                <label>課程篩選：</label>
+                <div id="lessonContainer" style="margin-top:6px; display:flex; flex-wrap:wrap; gap:6px; justify-content:left;"></div>
+            </div>
+            <p id="translation">點擊下一個開始！</p>
+            <div id="inputs" style="display:none;">
+            </div>
+            <button id="check" style="display:none;">檢查</button>
+            <p id="feedback" style="display:none;"></p>
+            <button id="showAnswer" style="display:none;">顯示答案</button>
+        </div>
+        <button id="next">下一個</button>
+    </div>
+    <script src="vocab.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
