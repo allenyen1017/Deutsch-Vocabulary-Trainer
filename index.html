@@ -13,6 +13,9 @@
             <div style="margin-top:8px;">
                 <label>課程篩選：</label>
                 <div id="lessonContainer" style="margin-top:6px; display:flex; flex-wrap:wrap; gap:6px; justify-content:left;"></div>
+                <div style="margin-top:10px;">
+                    <button id="examMode">開始測驗</button>
+                </div>
             </div>
             <p id="translation">點擊下一個開始！</p>
             <div id="inputs" style="display:none;">
@@ -22,6 +25,11 @@
             <button id="showAnswer" style="display:none;">顯示答案</button>
         </div>
         <button id="next">下一個</button>
+        <div id="examResult" style="margin-top:20px; display:none;">
+            <h2>測驗結果</h2>
+            <div id="examStats"></div>
+            <div id="wrongAnswersList" style="margin-top:10px; text-align:left;"></div>
+        </div>
     </div>
     <script src="vocab.js"></script>
     <script src="script.js"></script>
