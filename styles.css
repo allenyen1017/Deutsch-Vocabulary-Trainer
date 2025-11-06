@@ -17,7 +17,6 @@ body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
 	padding: 8px 12px;
 	padding-left: 18px;
 	border-radius: 6px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 #feedback ul li:first-child { font-weight: 700; margin-bottom: 6px; }
 #feedback.correct { color: #155724; background: #d4edda; }
