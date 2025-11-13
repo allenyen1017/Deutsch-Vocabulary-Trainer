@@ -70,7 +70,7 @@ const vocabList = [
     { type: 'noun', deutsch: 'Klingel', chinese: '(電)鈴', gender: 'die', plural: 'Klingeln', Pl: '-n', countable: true, lesson: 'lesson 2' },
     { type: 'noun', deutsch: 'Adresse', chinese: '地址', gender: 'die', plural: 'Adressen', Pl: '-n', countable: true, lesson: 'lesson 2' },
     { type: 'noun', deutsch: 'Absender', chinese: '寄件人', gender: 'der', plural: 'Absender', Pl: '-', countable: true, lesson: 'lesson 2' },
-    { type: 'noun', deutsch: 'Empfägen', chinese: '收件人', gender: 'der', plural: 'Empfägen', Pl: '-', countable: true, lesson: 'lesson 2' },
+    { type: 'noun', deutsch: 'Empfäger', chinese: '收件人', gender: 'der', plural: 'Empfäger', Pl: '-', countable: true, lesson: 'lesson 2' },
 /**/{ type: 'noun', deutsch: 'Haus', chinese: '房屋 透天厝', gender: 'das', plural: 'Häuser', Pl: '-:er', countable: true, lesson: 'lesson 2' },
     { type: 'noun', deutsch: 'Telefon', chinese: '電話', gender: 'das', plural: 'Telefone', Pl: '-e', countable: true, lesson: 'lesson 2' },
     { type: 'noun', deutsch: 'Vorsicht', chinese: '小心 謹慎 注意', gender: 'die', countable: false, lesson: 'lesson 2' },
