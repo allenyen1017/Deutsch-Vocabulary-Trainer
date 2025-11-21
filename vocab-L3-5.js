@@ -1,4 +1,4 @@
-// 特殊字符 Ä ä Ö ö Ü ü ẞ ß
+// 特殊字符 Ä ä Ö ö Ü ü ẞ ß é
 // 由於專案改為分檔維護，載入時把此檔的詞彙推入 window.vocabParts
 window.vocabParts = window.vocabParts || [];
 window.vocabParts.push([
@@ -31,7 +31,19 @@ window.vocabParts.push([
     { type: 'noun', deutsch: 'Portemonnaie', chinese: '錢夾', gender: 'das', plural: 'Portemonnaies', Pl: '-s', countable: true, lesson: 'lesson 3' },
     { type: 'noun', deutsch: 'Croissant', chinese: '牛角麵包 可頌', gender: 'das', plural: 'Croissants', Pl: '-s', countable: true, lesson: 'lesson 3' },
     { type: 'noun', deutsch: 'Brille', chinese: '眼鏡', gender: 'die', plural: 'Brillen', Pl: '-n', countable: true, lesson: 'lesson 3' },
-  //{ type: 'noun', deutsch: '', chinese: '', gender: '', plural: '', Pl: '', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Arbeitsplatz', chinese: '工作 場所/崗位/地點 職缺', gender: 'der', plural: 'Arbeitsplätze', Pl: '-:e', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Park', chinese: '公園', gender: 'der', plural: 'Parks', Pl: '-s', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Kopfhörer', chinese: '耳機', gender: 'der', plural: 'Kopfhörer', Pl: '-', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Café', chinese: '咖啡館', gender: 'das', plural: 'Cafés', Pl: '-s', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Marketing', chinese: '行銷學', gender: 'das', countable: false, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Glück', chinese: '幸福 幸運', gender: 'das', countable: false, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Restaurant', chinese: '餐廳', gender: 'das', plural: 'Restaurants', Pl: '-s', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Konzert', chinese: '音樂會 音樂廳', gender: 'das', plural: 'Konzerte', Pl: '-e', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Internet', chinese: '網路', gender: 'das', countable: false, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Atmosphäre', chinese: '氣氛', gender: 'die', plural: 'Atmosphären', Pl: '-n', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Leute', chinese: '人們', onlyplural: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Grafikdesigner', chinese: '平面設計師', gender: 'der', plural: 'Grafikdesigner', Pl: '-', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Grafikdesignerin', chinese: '女平面設計師', gender: 'die', plural: 'Grafikdesignerinnen', Pl: '-nen', countable: true, lesson: 'lesson 3' },
 
 
     // 動詞
@@ -40,23 +52,42 @@ window.vocabParts.push([
     { type: 'verb', infinitiv: 'trinken', ich: 'trinke', du: 'trinkst', er: 'trinkt', wir: 'trinken', ihr: 'trinkt', sie: 'trinken', chinese: '喝', lesson: 'lesson 3' },
     { type: 'verb', infinitiv: 'bestellen', ich: 'bestelle', du: 'bestellst', er: 'bestellt', wir: 'bestellen', ihr: 'bestellt', sie: 'bestellen', chinese: '點...飲料/食物', lesson: 'lesson 3' },
     { type: 'verb', infinitiv: 'nehmen', ich: 'nehme', du: 'nimmst', er: 'nimmt', wir: 'nehmen', ihr: 'nehmt', sie: 'nehmen', chinese: '喝... 吃...', lesson: 'lesson 3' },
-  //{ type: 'verb', infinitiv: '', ich: '', du: '', er: '', wir: '', ihr: '', sie: '', chinese: '', lesson: 'lesson 3' },
     { type: 'konjunktiv', ich: 'möchte', du: 'möchtest', er: 'möchte', wir: 'möchten', ihr: 'möchtet', sie: 'möchten', chinese: '想要... 若有...多好', lesson: 'lesson 3' },
+    { type: 'verb', infinitiv: 'arbeiten', ich: 'arbeite', du: 'arbeitest', er: 'arbeitet', wir: 'arbeiten', ihr: 'arbeitet', sie: 'arbeiten', chinese: '工作', lesson: 'lesson 3' },
+    { type: 'verb', infinitiv: 'studieren', ich: 'studiere', du: 'studierst', er: 'studiert', wir: 'studieren', ihr: 'studiert', sie: 'studieren', chinese: '上/念大學 讀...科系', lesson: 'lesson 3' },
+    { type: 'verb', infinitiv: 'brauchen', ich: 'brauche', du: 'brauchst', er: 'braucht', wir: 'brauchen', ihr: 'braucht', sie: 'brauchen', chinese: '需要', lesson: 'lesson 3' },
+    { type: 'verb', infinitiv: 'gehen', ich: 'gehe', du: 'gehst', er: 'geht', wir: 'gehen', ihr: 'geht', sie: 'gehen', chinese: '去... 離開 走了', lesson: 'lesson 3' },
+    
     // 形容詞
     //{ type: 'adjective', deutsch: '', chinese: '', lesson: '' },
     { type: 'adjective', deutsch: 'schwarz', chinese: '黑的', lesson: 'lesson 3' },
+    { type: 'adjective', deutsch: 'in', chinese: '流行的 夯的', lesson: 'lesson 3' },
+    { type: 'adjective', deutsch: 'toll', chinese: '讚的 棒的', lesson: 'lesson 3', hint: '形容詞' },
+    { type: 'adjective', deutsch: 'einfach', chinese: '簡單 容易的', lesson: 'lesson 3' },
+    { type: 'adjective', deutsch: 'lecker', chinese: '可口的', lesson: 'lesson 3' },
 
     // 副詞
     //{ type: 'adverb', deutsch: '', chinese: '', lesson: '' },
     { type: 'adverb', deutsch: 'lieber', chinese: '寧願 比較喜歡', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'überall', chinese: '到處', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'hier', chinese: '這裡', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'dort', chinese: '那裡', lesson: 'lesson 3' },
 
     // 疑問詞
     //{ type: 'question', deutsch: '', chinese: '', lesson: '' },
+    { type: 'question', deutsch: 'warum', chinese: '為什麼?', lesson: 'lesson 3' },
 
     // 其他(人稱代名詞 介係詞 連接詞 所有格冠詞 片語)
     { type: 'other', deutsch: 'mit', chinese: '有... 和... 加...', lesson: 'lesson 3' },
     { type: 'other', deutsch: 'ohne', chinese: '無... 去(不加)...', lesson: 'lesson 3' },
     { type: 'other', deutsch: 'von', chinese: '...的(所有格)', lesson: 'lesson 3' },
+    { type: 'other', deutsch: 'wie', chinese: '如同 正如', lesson: 'lesson 3', hint: '連接詞' },
+    { type: 'other', deutsch: 'als', chinese: '作為', lesson: 'lesson 3' },
+
+    // 片語
+    //{ type: 'phrase', deutsch: '', chinese: '', lesson: '' },
+    { type: 'phrase', deutsch: 'Kaffee schwarz', chinese: '黑咖啡', lesson: 'lesson 3' },
+    { type: 'phrase', deutsch: 'so wie', chinese: '如同', lesson: 'lesson 3' },
 
     // 國家 語言 城市(名詞)
     { type: 'country', deutsch: 'Indien', chinese: '印度', countable: false, lesson: 'lesson 3' }

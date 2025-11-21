@@ -151,11 +151,9 @@ window.vocabParts.push([
 
     // 副詞
     //{ type: 'adverb', deutsch: '', chinese: '', lesson: '' },
-    { type: 'adverb', deutsch: 'gerne', chinese: '樂意地 喜歡地', lesson: 'lesson 0', hint: '-e'  },
-    { type: 'adverb', deutsch: 'gern', chinese: '樂意地 喜歡地', lesson: 'lesson 0', hint: '-n'},
-    { type: 'adverb', deutsch: 'hier', chinese: '這裡', lesson: 'lesson 1' },
-    { type: 'adverb', deutsch: 'dort', chinese: '那裡', lesson: 'lesson 1' },
-    { type: 'adverb', deutsch: 'super', chinese: '讚 棒地', lesson: 'lesson 1' },
+    { type: 'adverb', deutsch: 'gerne', chinese: '樂意地 喜歡地', lesson: 'lesson 0', hint: '-e' },
+    { type: 'adverb', deutsch: 'gern', chinese: '樂意地 喜歡地', lesson: 'lesson 0', hint: '-n' },
+    { type: 'adverb', deutsch: 'super', chinese: '讚 棒地', lesson: 'lesson 1', hint: '副詞' },
     { type: 'adverb', deutsch: 'nicht', chinese: '(否定)', lesson: 'lesson 1' },
     { type: 'adverb', deutsch: 'noch', chinese: '仍然', lesson: 'lesson 1' },
     { type: 'adverb', deutsch: 'jetzt', chinese: '現在', lesson: 'lesson 1' },
@@ -199,6 +197,20 @@ window.vocabParts.push([
     { type: 'other', deutsch: 'bei', chinese: '在...附近', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'seit', chinese: '自...至今', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'es gibt', chinese: '有... (there is/are)', lesson: 'lesson 2' },
+
+    // 片語
+    //{ type: 'phrase', deutsch: '', chinese: '', lesson: '' },
+    { type: 'phrase', deutsch: 'Danke', chinese: '謝謝!', lesson: 'lesson 0' },
+    { type: 'phrase', deutsch: 'Bitte', chinese: '不客氣!', lesson: 'lesson 0' },
+    { type: 'phrase', deutsch: 'Keine Ahnung', chinese: '不知道!', lesson: 'lesson 0' },
+    { type: 'phrase', deutsch: 'Entschuldigung', chinese: '對不起!', lesson: 'lesson 0' },
+    { type: 'phrase', deutsch: 'Na klar', chinese: '那當然!', lesson: 'lesson 0' },
+    { type: 'phrase', deutsch: 'Kein Problem', chinese: '沒問題!', lesson: 'lesson 0' },
+    { type: 'phrase', deutsch: 'Guten Morgen', chinese: '早安!', lesson: 'lesson 0' },
+    { type: 'phrase', deutsch: 'Wie bitte', chinese: '你說什麼? 請再說一遍', lesson: 'lesson 0' },
+    { type: 'phrase', deutsch: 'Guten Tag', chinese: '您好! 日安!', lesson: 'lesson 1' },
+    { type: 'phrase', deutsch: 'Tschüss', chinese: '再見!', lesson: 'lesson 1', hint: '-ss' },
+    { type: 'phrase', deutsch: 'Tschüs', chinese: '再見!', lesson: 'lesson 1', hint: '-s' },
 
     // 國家 語言 城市(名詞)
     { type: 'country', deutsch: 'Deutschland', chinese: '德國', countable: false, lesson: 'lesson 1' },
