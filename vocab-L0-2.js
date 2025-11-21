@@ -1,5 +1,7 @@
 // 特殊字符 Ä ä Ö ö Ü ü ẞ ß
-const vocabList = [
+// 由於專案改為分檔維護，載入時把此檔的詞彙推入 window.vocabParts
+window.vocabParts = window.vocabParts || [];
+window.vocabParts.push([
     // 名詞
     //{ type: 'noun', deutsch: '', chinese: '', gender: '', plural: '', Pl: '', countable: false/true, lesson: '', hint: '' },
     { type: 'noun', deutsch: 'Kursraum', chinese: '教室', gender: 'der', plural: 'Kursräume', Pl: '-:e', countable: true, lesson: 'lesson 0' },
@@ -13,9 +15,7 @@ const vocabList = [
     { type: 'noun', deutsch: 'Marker', chinese: '馬克筆', gender: 'der', plural: 'Marker', Pl: '-', countable: true, lesson: 'lesson 0', hint: 'M' },
     { type: 'noun', deutsch: 'Textmarker', chinese: '馬克筆', gender: 'der', plural: 'Textmarker', Pl: '-', countable: true, lesson: 'lesson 0', hint: 'T' },
     { type: 'noun', deutsch: 'Laptop', chinese: '筆電', gender: 'der', plural: 'Laptops', Pl: '-s', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Kaffee', chinese: '咖啡', gender: 'der', plural: 'Kaffees', Pl: '-s', countable: true, lesson: 'lesson 0' },
 /**/{ type: 'noun', deutsch: 'Radiergummi', chinese: '橡皮擦', gender: 'der', plural: 'Radiergummis', Pl: '-s', countable: true, lesson: 'lesson 0' },
-    { type: 'noun', deutsch: 'Tee', chinese: '茶', gender: 'der', plural: 'Tees', Pl: '-s', countable: true, lesson: 'lesson 0' },
     { type: 'noun', deutsch: 'Buch', chinese: '書', gender: 'das', plural: 'Bücher', Pl: '-:er', countable: true, lesson: 'lesson 0' },
     { type: 'noun', deutsch: 'Heft', chinese: '筆記本', gender: 'das', plural: 'Hefte', Pl: '-e', countable: true, lesson: 'lesson 0' },
 /**/{ type: 'noun', deutsch: 'Wort', chinese: '字', gender: 'das', plural: 'Wörter', Pl: '-:er', countable: true, lesson: 'lesson 0' },
@@ -196,7 +196,6 @@ const vocabList = [
     { type: 'other', deutsch: 'für', chinese: '對...而言 為了...', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'sein', chinese: '他的', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'oder', chinese: '或', lesson: 'lesson 2' },
-    { type: 'other', deutsch: 'mit', chinese: '有... 和... 加...', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'bei', chinese: '在...附近', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'seit', chinese: '自...至今', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'es gibt', chinese: '有... (there is/are)', lesson: 'lesson 2' },
@@ -258,6 +257,5 @@ const vocabList = [
     { type: 'country', deutsch: 'Berlin', chinese: '柏林', countable: false, lesson: 'lesson 1' },
     { type: 'country', deutsch: 'Belgien', chinese: '比利時', countable: false, lesson: 'lesson 2' },
     { type: 'country', deutsch: 'Syrien', chinese: '敘利亞', countable: false, lesson: 'lesson 2' },
-    { type: 'country', deutsch: 'Argentinien', chinese: '阿根廷', countable: false, lesson: 'lesson 2' },
-    
-];
+    { type: 'country', deutsch: 'Argentinien', chinese: '阿根廷', countable: false, lesson: 'lesson 2' }
+]);
