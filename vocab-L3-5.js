@@ -44,7 +44,13 @@ window.vocabParts.push([
     { type: 'noun', deutsch: 'Leute', chinese: '人們', onlyplural: true, lesson: 'lesson 3' },
     { type: 'noun', deutsch: 'Grafikdesigner', chinese: '平面設計師', gender: 'der', plural: 'Grafikdesigner', Pl: '-', countable: true, lesson: 'lesson 3' },
     { type: 'noun', deutsch: 'Grafikdesignerin', chinese: '女平面設計師', gender: 'die', plural: 'Grafikdesignerinnen', Pl: '-nen', countable: true, lesson: 'lesson 3' },
-
+    { type: 'noun', deutsch: 'Abend', chinese: '晚上', gender: 'der', plural: 'Abende', Pl: '-e', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Lust', chinese: '興趣', gender: 'die', countable: false, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Band', chinese: '樂團', gender: 'die', plural: 'Bands', Pl: '-s', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Karte', chinese: '票 卡', gender: 'die', plural: 'Karten', Pl: '-n', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Bar', chinese: '酒吧', gender: 'die', plural: 'Bars', Pl: '-s', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Straße', chinese: '街道', gender: 'die', plural: 'Straßen', Pl: '-n', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Nachricht', chinese: '消息 訊息 新聞', gender: 'die', plural: 'Nachrichten', Pl: '-en', countable: true, lesson: 'lesson 3' },
 
     // 動詞
     //{ type: 'verb', infinitiv: '', ich: '', du: '', er: '', wir: '', ihr: '', sie: '', chinese: '', lesson: '', hint: '' },
@@ -57,6 +63,10 @@ window.vocabParts.push([
     { type: 'verb', infinitiv: 'studieren', ich: 'studiere', du: 'studierst', er: 'studiert', wir: 'studieren', ihr: 'studiert', sie: 'studieren', chinese: '上/念大學 讀...科系', lesson: 'lesson 3' },
     { type: 'verb', infinitiv: 'brauchen', ich: 'brauche', du: 'brauchst', er: 'braucht', wir: 'brauchen', ihr: 'braucht', sie: 'brauchen', chinese: '需要', lesson: 'lesson 3' },
     { type: 'verb', infinitiv: 'gehen', ich: 'gehe', du: 'gehst', er: 'geht', wir: 'gehen', ihr: 'geht', sie: 'gehen', chinese: '去... 離開 走了', lesson: 'lesson 3' },
+    { type: 'verb', infinitiv: 'kennen', ich: 'kenne', du: 'kennst', er: 'kennt', wir: 'kennen', ihr: 'kennt', sie: 'kennen', chinese: '認識(知道)', lesson: 'lesson 3' },
+    { type: 'verb', infinitiv: 'kennenlernen', ich: 'lerne kennen', du: 'lernst kennen', er: 'lernt kennen', wir: 'lernen kennen', ihr: 'lernt kennen', sie: 'lernen kennen', chinese: '結識 初次認識', lesson: 'lesson 3' },
+    { type: 'verb', infinitiv: 'schicken', ich: 'schicke', du: 'schickst', er: 'schickt', wir: 'schicken', ihr: 'schickt', sie: 'schicken', chinese: '寄送... 發送...', lesson: 'lesson 3' },
+
     
     // 形容詞
     //{ type: 'adjective', deutsch: '', chinese: '', lesson: '' },
@@ -65,6 +75,8 @@ window.vocabParts.push([
     { type: 'adjective', deutsch: 'toll', chinese: '讚的 棒的', lesson: 'lesson 3', hint: '形容詞' },
     { type: 'adjective', deutsch: 'einfach', chinese: '簡單 容易的', lesson: 'lesson 3' },
     { type: 'adjective', deutsch: 'lecker', chinese: '可口的', lesson: 'lesson 3' },
+    { type: 'adjective', deutsch: 'perfekt', chinese: '妥當 搞定的 完美的', lesson: 'lesson 3' },
+    { type: 'adjective', deutsch: 'später', chinese: '晚些 稍晚', lesson: 'lesson 3' },
 
     // 副詞
     //{ type: 'adverb', deutsch: '', chinese: '', lesson: '' },
@@ -72,22 +84,32 @@ window.vocabParts.push([
     { type: 'adverb', deutsch: 'überall', chinese: '到處', lesson: 'lesson 3' },
     { type: 'adverb', deutsch: 'hier', chinese: '這裡', lesson: 'lesson 3' },
     { type: 'adverb', deutsch: 'dort', chinese: '那裡', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'super', chinese: '讚 棒地', lesson: 'lesson 3', hint: '副詞' },
+    { type: 'adverb', deutsch: 'dann', chinese: '然後', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'gleich', chinese: '立刻 馬上', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'heute', chinese: '今天', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'morgen', chinese: '明天', lesson: 'lesson 3' },
 
     // 疑問詞
     //{ type: 'question', deutsch: '', chinese: '', lesson: '' },
     { type: 'question', deutsch: 'warum', chinese: '為什麼?', lesson: 'lesson 3' },
 
-    // 其他(人稱代名詞 介係詞 連接詞 所有格冠詞 片語)
+    // 其他(人稱代名詞 介係詞 連接詞 所有格冠詞)
     { type: 'other', deutsch: 'mit', chinese: '有... 和... 加...', lesson: 'lesson 3' },
     { type: 'other', deutsch: 'ohne', chinese: '無... 去(不加)...', lesson: 'lesson 3' },
     { type: 'other', deutsch: 'von', chinese: '...的(所有格)', lesson: 'lesson 3' },
     { type: 'other', deutsch: 'wie', chinese: '如同 正如', lesson: 'lesson 3', hint: '連接詞' },
     { type: 'other', deutsch: 'als', chinese: '作為', lesson: 'lesson 3' },
+    { type: 'other', deutsch: 'bis', chinese: '至', lesson: 'lesson 3' },
 
     // 片語
     //{ type: 'phrase', deutsch: '', chinese: '', lesson: '' },
     { type: 'phrase', deutsch: 'Kaffee schwarz', chinese: '黑咖啡', lesson: 'lesson 3' },
     { type: 'phrase', deutsch: 'so wie', chinese: '如同', lesson: 'lesson 3' },
+    { type: 'phrase', deutsch: 'bis dann', chinese: '回頭見! 稍後見!', lesson: 'lesson 3', hint: 'd-' },
+    { type: 'phrase', deutsch: 'bis gleich', chinese: '一會兒見!', lesson: 'lesson 3', hint: 'g-' },
+    { type: 'phrase', deutsch: 'bis später', chinese: '稍後見!', lesson: 'lesson 3', hint: 's-' },
+    { type: 'phrase', deutsch: 'bis morgen', chinese: '明天見!', lesson: 'lesson 3' },
 
     // 國家 語言 城市(名詞)
     { type: 'country', deutsch: 'Indien', chinese: '印度', countable: false, lesson: 'lesson 3' }
