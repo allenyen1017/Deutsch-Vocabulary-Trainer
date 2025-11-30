@@ -51,6 +51,12 @@ window.vocabParts.push([
     { type: 'noun', deutsch: 'Bar', chinese: '酒吧', gender: 'die', plural: 'Bars', Pl: '-s', countable: true, lesson: 'lesson 3' },
     { type: 'noun', deutsch: 'Straße', chinese: '街道', gender: 'die', plural: 'Straßen', Pl: '-n', countable: true, lesson: 'lesson 3' },
     { type: 'noun', deutsch: 'Nachricht', chinese: '消息 訊息 新聞', gender: 'die', plural: 'Nachrichten', Pl: '-en', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Comic', chinese: '漫畫', gender: 'der', plural: 'Comics', Pl: '-s', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Euro', chinese: '歐元', gender: 'der', plural: 'Euros', Pl: '-s', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Cent', chinese: '歐分', gender: 'der', plural: 'Cents', Pl: '-s', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Gast', chinese: '客人', gender: 'der', plural: 'Gäste', Pl: '-:e', countable: true, lesson: 'lesson 3' },
+    { type: 'noun', deutsch: 'Rechnung', chinese: '帳單', gender: 'die', plural: 'Rechnungen', Pl: '-en', countable: true, lesson: 'lesson 3' },
+
 
     // 動詞
     //{ type: 'verb', infinitiv: '', ich: '', du: '', er: '', wir: '', ihr: '', sie: '', chinese: '', lesson: '', hint: '' },
@@ -66,7 +72,8 @@ window.vocabParts.push([
     { type: 'verb', infinitiv: 'kennen', ich: 'kenne', du: 'kennst', er: 'kennt', wir: 'kennen', ihr: 'kennt', sie: 'kennen', chinese: '認識(知道)', lesson: 'lesson 3' },
     { type: 'verb', infinitiv: 'kennenlernen', ich: 'lerne kennen', du: 'lernst kennen', er: 'lernt kennen', wir: 'lernen kennen', ihr: 'lernt kennen', sie: 'lernen kennen', chinese: '結識 初次認識', lesson: 'lesson 3' },
     { type: 'verb', infinitiv: 'schicken', ich: 'schicke', du: 'schickst', er: 'schickt', wir: 'schicken', ihr: 'schickt', sie: 'schicken', chinese: '寄送... 發送...', lesson: 'lesson 3' },
-
+    { type: 'verb', infinitiv: 'zahlen', ich: 'zahle', du: 'zahlst', er: 'zahlt', wir: 'zahlen', ihr: 'zahlt', sie: 'zahlen', chinese: '為...(事物)付帳 付...(多少)錢 付帳', lesson: 'lesson 3' },
+    { type: 'verb', infinitiv: 'bezahlen', ich: 'bezahle', du: 'bezahlst', er: 'bezahlt', wir: 'bezahlen', ihr: 'bezahlt', sie: 'bezahlen', chinese: '為...(事物)付帳', lesson: 'lesson 3' },
     
     // 形容詞
     //{ type: 'adjective', deutsch: '', chinese: '', lesson: '' },
@@ -77,6 +84,7 @@ window.vocabParts.push([
     { type: 'adjective', deutsch: 'lecker', chinese: '可口的', lesson: 'lesson 3' },
     { type: 'adjective', deutsch: 'perfekt', chinese: '妥當 搞定的 完美的', lesson: 'lesson 3' },
     { type: 'adjective', deutsch: 'später', chinese: '晚些 稍晚', lesson: 'lesson 3' },
+    { type: 'adjective', deutsch: 'getrennt', chinese: '分開的', lesson: 'lesson 3' },
 
     // 副詞
     //{ type: 'adverb', deutsch: '', chinese: '', lesson: '' },
@@ -89,6 +97,8 @@ window.vocabParts.push([
     { type: 'adverb', deutsch: 'gleich', chinese: '立刻 馬上', lesson: 'lesson 3' },
     { type: 'adverb', deutsch: 'heute', chinese: '今天', lesson: 'lesson 3' },
     { type: 'adverb', deutsch: 'morgen', chinese: '明天', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'zusammen', chinese: '一起', lesson: 'lesson 3' },
+    { type: 'adverb', deutsch: 'zurück', chinese: '返回 歸還 找回(錢)', lesson: 'lesson 3' },
 
     // 疑問詞
     //{ type: 'question', deutsch: '', chinese: '', lesson: '' },
