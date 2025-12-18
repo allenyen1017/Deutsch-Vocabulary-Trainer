@@ -17,7 +17,10 @@
                     <button id="examMode">開始測驗</button>
                 </div>
             </div>
-            <p id="translation">點擊下一個開始！</p>
+            <div id="translationRow" style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
+                <p id="translation" style="margin:0;">點擊下一個開始！</p>
+                <button id="playPronBtn" onclick="speakCurrent()" style="margin-left:8px;">發音</button>
+            </div>
             <div id="inputs" style="display:none;">
             </div>
             <button id="check" style="display:none;">檢查</button>
@@ -31,7 +34,6 @@
             <div id="wrongAnswersList" style="margin-top:10px; text-align:left;"></div>
         </div>
     </div>
-    <button onclick="speakGerman('Russland')">播放發音</button>
     <script src="vocab-L0-2.js"></script>
     <script src="vocab-L3-5.js"></script>
     <script src="script.js"></script>
