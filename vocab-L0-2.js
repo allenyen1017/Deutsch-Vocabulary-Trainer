@@ -43,9 +43,7 @@ window.vocabParts.push([
     { type: 'noun', deutsch: 'Ländername', chinese: '國名', gender: 'der', plural: 'Ländernamen', Pl: '-n', countable: true, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'Person', chinese: '人', gender: 'die', plural: 'Personen', Pl: '-en', countable: true, lesson: 'lesson 1', hint: 'P' },
     { type: 'noun', deutsch: 'Sommer', chinese: '夏天', gender: 'der', countable: false, lesson: 'lesson 1' },
-    { type: 'noun', deutsch: 'Kurs', chinese: '課程', gender: 'der', plural: 'Kurse', Pl: '-e', countable: true, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'Sommerkurs', chinese: '夏季語言班', gender: 'der', plural: 'Sommerkurse', Pl: '-e', countable: true, lesson: 'lesson 1' },
-    { type: 'noun', deutsch: 'Stadt', chinese: '城市', gender: 'die', plural: 'Städte', Pl: '-:e', countable: true, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'Satz', chinese: '句子 (定理/規則/沉澱物)', gender: 'der', plural: 'Sätze', Pl: '-:e', countable: true, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'Frage', chinese: '疑問', gender: 'die', plural: 'Fragen', Pl: '-n', countable: true, lesson: 'lesson 1' },
 /**/{ type: 'noun', deutsch: 'Antwort', chinese: '回答', gender: 'die', plural: 'Antworten', Pl: '-en', countable: true, lesson: 'lesson 1' },
@@ -59,7 +57,6 @@ window.vocabParts.push([
     { type: 'noun', deutsch: 'Garten', chinese: '花園', gender: 'der', plural: 'Gärten', Pl: '-:', countable: true, lesson: 'lesson 2' },
     { type: 'noun', deutsch: 'Tempo', chinese: '節拍 速度', gender: 'das', plural: 'Tempi', Pl: '~pi', countable: true, lesson: 'lesson 2' },
 /**/{ type: 'noun', deutsch: 'Problem', chinese: '課題 難題', gender: 'das', plural: 'Probleme', Pl: '-e', countable: true, lesson: 'lesson 2' },
-    { type: 'noun', deutsch: 'Arbeit', chinese: '工作', gender: 'die', plural: 'Arbeiten', Pl: '-en', countable: true, lesson: 'lesson 2' },
     { type: 'noun', deutsch: 'Zeit', chinese: '時間(單數) 時段/時期/年代', gender: 'die', plural: 'Zeiten', Pl: '-en', countable: true, lesson: 'lesson 2' },
     { type: 'noun', deutsch: 'Klingel', chinese: '(電)鈴', gender: 'die', plural: 'Klingeln', Pl: '-n', countable: true, lesson: 'lesson 2' },
     { type: 'noun', deutsch: 'Adresse', chinese: '地址', gender: 'die', plural: 'Adressen', Pl: '-n', countable: true, lesson: 'lesson 2' },
@@ -147,7 +144,6 @@ window.vocabParts.push([
     { type: 'adverb', deutsch: 'auch', chinese: '也', lesson: 'lesson 1' },
     { type: 'adverb', deutsch: 'so', chinese: '如此 這樣', lesson: 'lesson 2' },
     { type: 'adverb', deutsch: 'denn', chinese: '究竟 到底(使語氣友善)', lesson: 'lesson 2' },
-    { type: 'adverb', deutsch: 'oft', chinese: '常常 時常', lesson: 'lesson 2' },
     { type: 'adverb', deutsch: 'nur', chinese: '僅 只', lesson: 'lesson 2' },
 
     // 疑問詞
@@ -175,7 +171,6 @@ window.vocabParts.push([
     { type: 'other', deutsch: 'Ihr', chinese: '您的', lesson: 'lesson 1' },
     { type: 'other', deutsch: 'aus', chinese: '來自於(籍貫)', lesson: 'lesson 1' },
     { type: 'other', deutsch: 'aber', chinese: '但 然而', lesson: 'lesson 1' },
-    { type: 'other', deutsch: 'auf', chinese: '以...方式', lesson: 'lesson 1' },
     { type: 'other', deutsch: 'sein', chinese: '他的', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'oder', chinese: '或', lesson: 'lesson 2' },
     { type: 'other', deutsch: 'bei', chinese: '在...附近', lesson: 'lesson 2' },

@@ -1,0 +1,105 @@
+// 特殊字符 Ä ä Ö ö Ü ü ẞ ß é
+// 由於專案改為分檔維護，載入時把此檔的詞彙推入 window.vocabParts
+window.vocabParts = window.vocabParts || [];
+window.vocabParts.push([
+    // 名詞
+    //{ type: 'noun', deutsch: '', chinese: '', gender: '', plural: '', Pl: '', countable: true, lesson: '', hint: '' },
+    { type: 'noun', deutsch: 'Verkehr', chinese: '交通', gender: 'der', countable: false, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Verkehrsmittel', chinese: '交通工具', gender: 'das', plural: 'Verkehrsmittel', Pl: '-', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Bus', chinese: '公車', gender: 'der', plural: 'Busse', Pl: '-se', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Fahrrad', chinese: '自行車', gender: 'das', plural: 'Fahrräder', Pl: '-:er', countable: true, lesson: 'lesson 6', hint: 'F-' },
+    { type: 'noun', deutsch: 'Rad', chinese: '自行車', gender: 'das', plural: 'Räder', Pl: '-:er', countable: true, lesson: 'lesson 6', hint: 'R-' },
+    { type: 'noun', deutsch: 'Motorrad', chinese: '摩托車', gender: 'das', plural: 'Motorräder', Pl: '-:er', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Auto', chinese: '汽車', gender: 'das', plural: 'Autos', Pl: '-s', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'E-Roller', chinese: '電動滑板車', gender: 'der', plural: 'E-Roller', Pl: '-', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'U-Bahn', chinese: '地鐵', gender: 'die', plural: 'U-Bahnen', Pl: '-en', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'S-Bahn', chinese: '快速鐵道 火車', gender: 'die', plural: 'S-Bahnen', Pl: '-en', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Zug', chinese: '火車', gender: 'der', plural: 'Züge', Pl: '-:e', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Fuß', chinese: '腳', gender: 'der', plural: 'Füße', Pl: '-:e', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Sport', chinese: '運動', gender: 'der', countable: false, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Kurs', chinese: '課程', gender: 'der', plural: 'Kurse', Pl: '-e', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Arbeit', chinese: '工作', gender: 'die', plural: 'Arbeiten', Pl: '-en', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Universität', chinese: '大學', gender: 'die', plural: 'Universitäten', Pl: '-en', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Museum', chinese: '博物館', gender: 'das', plural: 'Museen', Pl: '~een', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Theater', chinese: '戲院', gender: 'das', plural: 'Theater', Pl: '-', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Zoo', chinese: '動物園', gender: 'der', plural: 'Zoos', Pl: '-s', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Tipp', chinese: '技巧 撇步', gender: 'der', plural: 'Tipps', Pl: '-s', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Kuppel', chinese: '圓頂 穹頂', gender: 'die', plural: 'Kuppeln', Pl: '-n', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Reichstag', chinese: '帝國議會大廈', gender: 'der', countable: false, lesson: 'lesson 6+' },
+    { type: 'noun', deutsch: 'Platz', chinese: '廣場 座位', gender: 'der', plural: 'Plätze', Pl: '-:e', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Potsdamer Platz', chinese: '波茲坦廣場', gender: 'der', countable: false, lesson: 'lesson 6+' },
+    { type: 'noun', deutsch: 'Alexanderplatz', chinese: '亞歷山大廣場', gender: 'der', countable: false, lesson: 'lesson 6+' },
+    { type: 'noun', deutsch: 'Treffpunkt', chinese: '會面點', gender: 'der', plural: 'Treffpunkte', Pl: '-e', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Weltzeituhr', chinese: '世界鐘', gender: 'die', countable: false, lesson: 'lesson 6+' },
+    { type: 'noun', deutsch: 'Insel', chinese: '島', gender: 'die', plural: 'Inseln', Pl: '-n', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Museumsinsel', chinese: '博物館島', gender: 'die', countable: false, lesson: 'lesson 6+' },
+    { type: 'noun', deutsch: 'Fernsehturm', chinese: '電視', gender: 'der', plural: 'Fernsehtürme', Pl: '-:e', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Checkpoint Charlie', chinese: '查理檢查哨站', gender: 'der', countable: false, lesson: 'lesson 6+' },
+    { type: 'noun', deutsch: 'Stadt', chinese: '城市', gender: 'die', plural: 'Städte', Pl: '-:e', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Student', chinese: '學生', gender: 'der', plural: 'Studenten', Pl: '-en', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Studentin', chinese: '女學生', gender: 'die', plural: 'Studentinnen', Pl: '-nen', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Tourist', chinese: '觀光客', gender: 'der', plural: 'Touristen', Pl: '-', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Journalist', chinese: '記者', gender: 'der', plural: 'Journalisten', Pl: '-en', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Journalistin', chinese: '女記者', gender: 'die', plural: 'Journalistinnen', Pl: '-nen', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Foto', chinese: '照片', gender: 'das', plural: 'Fotos', Pl: '-s', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Fotojournalist', chinese: '攝影記者', gender: 'der', plural: 'Fotojournalisten', Pl: '-en', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Fotojournalistin', chinese: '女攝影記者', gender: 'die', plural: 'Fotojournalistinnen', Pl: '-nen', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Reiseführer', chinese: '導遊 旅遊書', gender: 'der', plural: 'Reiseführer', Pl: '-', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Journal', chinese: '雜誌', gender: 'das', plural: 'Journale', Pl: '-e', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Tour', chinese: '旅行 遠足', gender: 'das', plural: 'Touren', Pl: '-en', countable: true, lesson: 'lesson 6', hint:'T-' },
+    { type: 'noun', deutsch: 'Sehenswürdigkeit', chinese: '景點 名勝', gender: 'die', plural: 'Sehenswürdigkeiten', Pl: '-en', countable: true, lesson: 'lesson 6' },
+    { type: 'noun', deutsch: 'Selfie', chinese: '自拍', gender: 'das', plural: 'Selfies', Pl: '-s', countable: true, lesson: 'lesson 6' },
+
+    
+    // 動詞
+    //{ type: 'verb', infinitiv: '', ich: '', du: '', er: '', wir: '', ihr: '', sie: '', chinese: '', lesson: '', hint: '' },
+    //{ type: 'konjunktiv', ich: '', du: '', er: '', wir: '', ihr: '', sie: '', chinese: '', lesson: '', hint: '' },
+    { type: 'verb', infinitiv: 'gehen', ich: 'gehe', du: 'gehst', er: 'geht', wir: 'gehen', ihr: 'geht', sie: 'gehen', chinese: '去... 離開 走路', lesson: 'lesson 6' },
+    { type: 'verb', infinitiv: 'farhen', ich: 'farhe', du: 'färhst', er: 'färht', wir: 'farhen', ihr: 'farht', sie: 'farhen', chinese: '搭乘 駕駛', lesson: 'lesson 6' },
+    { type: 'verb', infinitiv: 'nutzen', ich: 'nutze', du: 'nutzt', er: 'nutzt', wir: 'nutzen', ihr: 'nutzt', sie: 'nutzen', chinese: '使用...', lesson: 'lesson 6' },
+    { type: 'verb', infinitiv: 'sitzen', ich: 'sitze', du: 'sitzt', er: 'sitzt', wir: 'sitzen', ihr: 'sitzt', sie: 'sitzen', chinese: '坐著', lesson: 'lesson 6' },
+    { type: 'verb', infinitiv: 'treffen', ich: 'treffe', du: 'triffst', er: 'trifft', wir: 'treffen', ihr: 'trefft', sie: 'treffen', chinese: '遇見', lesson: 'lesson 6' },
+    { type: 'verb', ich: 'war', du: 'warst', er: 'war', wir: 'waren', ihr: 'wart', sie: 'waren', chinese: '曾是 曾到過 曾在', lesson: 'lesson 6' },
+    { type: 'verb', infinitiv: 'kennen', ich: 'kenne', du: 'kennst', er: 'kennt', wir: 'kennen', ihr: 'kennt', sie: 'kennen', chinese: '認識(知道)', lesson: 'lesson 6' },
+    { type: 'verb', infinitiv: 'besuchen', ich: 'besuche', du: 'besuchst', er: 'besucht', wir: 'besuchen', ihr: 'besucht', sie: 'besuchen', chinese: '參觀(景點)', lesson: 'lesson 6' },
+    { type: 'verb', infinitiv: 'berichten', ich: 'berichte', du: 'berichtest', er: 'berichtet', wir: 'berichten', ihr: 'berichtet', sie: 'berichten', chinese: '報導', lesson: 'lesson 6' },
+
+
+
+    // 形容詞
+    //{ type: 'adjective', deutsch: '', chinese: '', lesson: '' },
+    { type: 'adjective', deutsch: 'modern', chinese: '現代的 新式的', lesson: 'lesson 6' },
+    
+
+    // 副詞
+    //{ type: 'adverb', deutsch: '', chinese: '', lesson: '' },
+    { type: 'adverb', deutsch: 'immer', chinese: '總是 一直', lesson: 'lesson 6' },
+    { type: 'adverb', deutsch: 'oft', chinese: '常常 時常', lesson: 'lesson 6' },
+    { type: 'adverb', deutsch: 'manchmal', chinese: '偶爾 有時', lesson: 'lesson 6' },
+    { type: 'adverb', deutsch: 'nie', chinese: '從不', lesson: 'lesson 6' },
+    { type: 'adverb', deutsch: 'hier', chinese: '這裡', lesson: 'lesson 6' },
+    { type: 'adverb', deutsch: 'dort', chinese: '那裡', lesson: 'lesson 6' },
+    { type: 'adverb', deutsch: 'da', chinese: '在場 這兒 那兒', lesson: 'lesson 6' },
+
+    // 疑問詞
+    //{ type: 'question', deutsch: '', chinese: '', lesson: '' },
+
+    // 其他(人稱代名詞 介係詞 連接詞 所有格冠詞)
+    { type: 'other', deutsch: 'mit', chinese: '有... 和... 加... 藉由...', lesson: 'lesson 6' },
+    { type: 'other', deutsch: 'zu', chinese: '以...方式 至...小地方 去做...', lesson: 'lesson 6' },
+    { type: 'other', deutsch: 'unser', chinese: '我們的', lesson: 'lesson 6' },
+    { type: 'other', deutsch: 'auf', chinese: '以...方式 在...上', lesson: 'lesson 6' },
+    { type: 'other', deutsch: 'an', chinese: '在...旁 邊 那兒', lesson: 'lesson 6' },
+    { type: 'other', deutsch: 'durch', chinese: '穿過 透過', lesson: 'lesson 6' },
+
+
+
+    // 片語
+    //{ type: 'phrase', deutsch: '', chinese: '', lesson: '' },
+    { type: 'phrase', deutsch: 'noch nie', chinese: '尚未', lesson: 'lesson 6' },
+    { type: 'phrase', deutsch: 'Das Reisejournal', chinese: '旅遊雜誌(專有名詞)', lesson: 'lesson 6' },
+
+
+    // 國家 語言 城市(名詞)
+    { type: 'country', deutsch: 'Potsdam', chinese: '波茲坦', countable: false, lesson: 'lesson 6+' }
+]);
