@@ -45,7 +45,6 @@ window.vocabParts.push([
     { type: 'noun', deutsch: 'Sommer', chinese: '夏天', gender: 'der', countable: false, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'Sommerkurs', chinese: '夏季語言班', gender: 'der', plural: 'Sommerkurse', Pl: '-e', countable: true, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'Satz', chinese: '句子 (定理/規則/沉澱物)', gender: 'der', plural: 'Sätze', Pl: '-:e', countable: true, lesson: 'lesson 1' },
-    { type: 'noun', deutsch: 'Frage', chinese: '疑問', gender: 'die', plural: 'Fragen', Pl: '-n', countable: true, lesson: 'lesson 1' },
 /**/{ type: 'noun', deutsch: 'Antwort', chinese: '回答', gender: 'die', plural: 'Antworten', Pl: '-en', countable: true, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'Satzfrage', chinese: '將直述句變成的問句', gender: 'die', plural: 'Satzfragen', Pl: '-n', countable: true, lesson: 'lesson 1' },
     { type: 'noun', deutsch: 'W-Frage', chinese: '以疑問詞造的問句', gender: 'die', plural: 'W-Fragen', Pl: '-n', countable: true, lesson: 'lesson 1' },
